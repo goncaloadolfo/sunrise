@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp">
+
+    <ImageView
+        android:id="@+id/imageViewCommentProfilePic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/intorrogation_mark" />
+
+    <TextView
+        android:id="@+id/textViewCommentAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/notDefined"
+        android:textColor="@color/lightGray2"
+        android:textSize="17sp"
+        app:layout_constraintStart_toEndOf="@+id/imageViewCommentProfilePic"
+        app:layout_constraintTop_toTopOf="@+id/imageViewCommentProfilePic" />
+
+    <TextView
+        android:id="@+id/textViewCommentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:maxEms="13"
+        android:text="@string/notDefined"
+        app:layout_constraintStart_toStartOf="@+id/textViewCommentAuthor"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCommentAuthor" />
+
+    <TextView
+        android:id="@+id/textViewCommentDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/notDefined"
+        android:textColor="@color/lightGray2"
+        app:layout_constraintEnd_toEndOf="@+id/ratingBarEvaluation"
+        app:layout_constraintStart_toStartOf="@+id/ratingBarEvaluation"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCommentText" />
+
+    <RatingBar
+        android:id="@+id/ratingBarEvaluation"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:isIndicator="true"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCommentDate" />
+</androidx.constraintlayout.widget.ConstraintLayout>

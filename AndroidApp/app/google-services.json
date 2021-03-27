@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "931472783955",
+    "firebase_url": "https://finalprojectdam.firebaseio.com",
+    "project_id": "finalprojectdam",
+    "storage_bucket": "finalprojectdam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931472783955:android:c6afbc0c0aa5566e",
+        "android_client_info": {
+          "package_name": "com.example.sunrise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931472783955-snnq4hsc24ja9jh4afrn1lul2k6idg5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB81E8i4rioL74_5GZJHWCNvZDe30tJD9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "931472783955-snnq4hsc24ja9jh4afrn1lul2k6idg5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

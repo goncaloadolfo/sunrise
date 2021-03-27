@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Login actitity -->
+    <string name="app_name">Sunrise</string>
+    <string name="app_name_caps">SUNRISE</string>
+    <string name="email">E-mail</string>
+    <string name="pass">Palavra chave</string>
+    <string name="signin">Entrar</string>
+    <string name="signup">Criar Conta</string>
+    <string name="loginIcon">login icon</string>
+    <string name="authFail">Autenticação falhou.</string>
+    <string name="emailVerification">vai ao teu email e ativa a conta</string>
+    <string name="returnToBeaches">voltar</string>
+
+    <!-- Register actitity -->
+    <string name="aboutYou">Sobre ti</string>
+    <string name="accountSett">Definições da Conta</string>
+    <string name="firstName">Primeiro Nome</string>
+    <string name="lastName">Último Nome</string>
+    <string name="homeTown">Local de Residência</string>
+    <string name="confirmPass">Confirmar Password</string>
+    <string name="signUpIcon">sign up icon</string>
+
+    <!-- Input validation -->
+    <string name="emptyFields">Preenche todos os campos.</string>
+    <string name="passwordsValidation">Passwords têm que ser iguais.</string>
+    <string name="emailValidation">Email já em uso.</string>
+    <string name="registrationMsg">Registo falhou.</string>
+
+    <!-- Menu -->
+    <string name="beachList">Praias</string>
+    <string name="advancedSearch">Pesquisa global</string>
+    <string name="suggestions">Sugestões</string>
+    <string name="profile">Meu perfil</string>
+    <string name="login">Entrar</string>
+    <string name="logout">Sair</string>
+    <string name="logoutConfirmation">clica outra vez para confirmar logout</string>
+
+    <!-- Beach list -->
+    <string name="knowMore">saber mais</string>
+    <string name="notDefined">N.A</string>
+    <string-array name="geoZones">
+        <item>sul</item>
+        <item>centro</item>
+        <item>norte</item>
+    </string-array>
+
+    <!-- Beach info -->
+    <string name="latitude">lat</string>
+    <string name="longitude">long</string>
+    <string name="date">dd/MM/yy</string>
+    <string name="time">HH</string>
+    <string name="shareOpinion">Partilha a tua experiência</string>
+    <string name="experienceContext">contexto</string>
+    <string name="writeSomething">escrever aqui&#8230;</string>
+
+    <string-array name="beachContext">
+        <item>surf iniciante</item>
+        <item>surf avançado</item>
+        <item>bar/restauração</item>
+        <item>passeios na praia</item>
+    </string-array>
+
+    <string name="commentSuccess">sucesso a adicionar comentário</string>
+    <string name="commentProblem">problema a adicionar comentário</string>
+    <string name="emptyComment">comentário vazio</string>
+
+    <!-- Main activity -->
+    <string name="wwoProbs">problemas a comunicar com o serviço</string>
+    <string name="fbProblem">problema a ir buscar as praias, verifica a internet e dá restart à app</string>
+
+    <!-- Advanced Search -->
+    <string name="search">procurar</string>
+    <string name="selectLocation">seleciona uma localização</string>
+    <string name="processing">a processar pedido</string>
+
+    <!-- Profile -->
+    <string name="friends">Amigos</string>
+    <string name="messages">Convites</string>
+    <string name="loginNeeded">precisas de login</string>
+
+    <!-- Suggestions -->
+    <string name="votes">votos</string>
+    <string name="viewComments">detalhes</string>
+
+</resources>
